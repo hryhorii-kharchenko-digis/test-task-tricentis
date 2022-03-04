@@ -8,7 +8,7 @@ export function fetchAlbums(searchTerm = "") {
       return response.json();
     })
     .then(function handleData(data) {
-      if (data && data.results && data.results.length > 0) {
+      if (data?.results?.length > 0) {
         return data.results
           .map(function getAlbumNames(result) {
             return result.collectionName;
