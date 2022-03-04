@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.input {
+  width: 300px;
+  padding: 5px 10px;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+}
+
+.list {
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px 15px;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  background-color: lightblue;
+}
+
+.item {
+  display: block;
+  margin-top: 10px;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  list-style: none;
+  background-color: white;
+}
+
+.item:first-child {
+  margin-top: 0px;
+}
